@@ -1,0 +1,366 @@
+/*
+ * Globals
+ */
+
+
+/* Links */
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/* Custom default button */
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+blockquote {
+  border: none;
+  margin: 0;
+  font-size: 2vh;
+  line-height: 115%;
+}
+
+#my-hr {
+  max-width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  background-image: url("../img/Decorative_Banner_Transparent_PNG_Picture.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+
+/*
+ * My rules
+ */
+
+#info {
+  margin-top: 50px;
+  max-width: 996px;
+  margin: 0 auto;
+  /*background-image: url("../img/metal-frame_1048-3388.jpg");*/
+  /*background-size: 100%;*/
+  /*background-size: 100% 100%;*/
+  background-repeat: no-repeat;
+}
+
+
+/*#left-info {
+  background-image: url("../img/Metal-backgrounds-vector.jpg")
+}*/
+
+
+/*#info h4 {
+  background-image: url("../img/Metal-backgrounds-vector.jpg");
+  background-size: contain;
+}*/
+
+#info h3 {
+  height: 45px;
+  padding: 10px;
+  /*margin-bottom: 35px;*/
+  background-image: url("../img/Decorative_Banner_Transparent_PNG_Picture.png");
+  background-repeat: no-repeat;
+  background-size: 100% 115%;
+}
+
+
+/*#quotes {
+  margin-top: 50px;
+}*/
+
+#infhead {
+  max-width: 950px;
+  /*border: 0.5px solid black;*/
+  /*margin: 70px 0 50px 0;*/
+  margin: 30px auto;
+  padding: 20px 10px;
+  /*background-image: url("../img/Decorative_Banner_Transparent_PNG_Picture.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+  /*background-size: 100% 100%;*/
+  border-radius: 25px;
+  background-color: rgba(255, 0, 0, 0.10);
+  -webkit-box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+#contact-form {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.controls {
+  padding: 15px;
+}
+
+
+/* Supporting marketing content */
+
+.marketing {
+  margin-bottom: 50px;
+  padding: 0 25px;
+}
+
+.marketing p+h4 {
+  margin-top: 28px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+  height: 800px;
+  background-image: url("../img/abstract-metallic-background_1048-1283.jpg");
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+
+/*.carousel .item {
+  height: 355px;
+  min-width: 100%;
+}*/
+
+.carousel-inner {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.carousel-inner>.item {
+  margin: 310px 0;
+  min-width: 100%;
+  min-height: 200px;
+}
+
+.carousel-inner>.item p {
+  font-size: 2vh;
+}
+
+.carousel-inner>.item em {
+  font-size: 2vh;
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  background-image: url("../img/623017264769-wallpaper-abstract-image-textured-grill-black-wallpapers-texture.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: cover;*/
+}
+
+.site-wrapper-inner {
+  vertical-align: top;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  /* For at least Firefox */
+  min-height: 80%;
+  background-color: #333;
+  -webkit-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Padding for spacing */
+
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav>li {
+  display: inline-block;
+}
+
+.masthead-nav>li+li {
+  margin-left: 20px;
+}
+
+.masthead-nav>li>a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, .75);
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav>li>a:hover,
+.masthead-nav>li>a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.masthead-nav>.active>a,
+.masthead-nav>.active>a:hover,
+.masthead-nav>.active>a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 30px;
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, .5);
+  margin: 0 auto;
+}
+
+.mastfoot img {
+  max-height: 100%;
+  max-width: 70px;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    top: 0;
+    margin-bottom: 30px;
+  }
+  .mastfoot {
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
